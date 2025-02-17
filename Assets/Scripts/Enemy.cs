@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
         if(transform.position.y < -10)
         {
             Destroy(gameObject);
+            // se destruyó el objeto
         }
     }
 }
