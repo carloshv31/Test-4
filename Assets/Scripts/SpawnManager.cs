@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
@@ -10,9 +11,15 @@ public class SpawnManager : MonoBehaviour
     public int enemyCount;
     public int waveNumber = 1;
 
+    public TextMeshProUGUI waveCount;
+    private int currentWave;
+
     // Start is called before the first frame update
     void Start()
     {
+        currentWave = 1;
+        waveCount.text = "Wave: " + currentWave;
+
         SpawnEnemyWave(waveNumber);
         Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation);
     }
@@ -25,15 +32,22 @@ public class SpawnManager : MonoBehaviour
         }
     }
 
+    public void WaveCount()
+    {
+        currentWave ++;
+        waveCount.text = "Wave: " + currentWave;
+    }
+
     // Update is called once per frame
     void Update()
     {
         enemyCount = FindObjectsOfType<Enemy>().Length;
-        if (enemyCount == 0)
+        if (enemyCount == 0 && GameManager.Instance.isGameOver == false)
         {
             waveNumber++;
             SpawnEnemyWave(waveNumber);
             Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation);
+            WaveCount();
         }
     }
 

@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Proyectos\\Test 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|c:\\proyectos\\test 4\\assets\\challenge 4\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 4\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|c:\\proyectos\\test 4\\assets\\challenge 4\\scripts\\enemyx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 4\\scripts\\enemyx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|c:\\proyectos\\test 4\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|c:\\proyectos\\test 4\\assets\\challenge 4\\scripts\\spawnmanagerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 4\\scripts\\spawnmanagerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|c:\\proyectos\\test 4\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|c:\\proyectos\\test 4\\assets\\challenge 4\\scripts\\rotatecamerax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 4\\scripts\\rotatecamerax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\rotatecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\audio manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\volumesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\volumesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|C:\\Proyectos\\Test 4\\assets\\scripts\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DA8D71-D5B2-2EA9-7308-84C38E605B3C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,58 +50,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SpawnManagerX.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\SpawnManagerX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\SpawnManagerX.cs",
-              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\SpawnManagerX.cs",
-              "RelativeToolTip": "Assets\\Challenge 4\\Scripts\\SpawnManagerX.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDMAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "VolumeSettings.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\VolumeSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VolumeSettings.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\VolumeSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VolumeSettings.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T01:32:38.011Z",
+              "WhenOpened": "2025-02-21T16:04:08.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Audio Manager.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Audio Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Audio Manager.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Audio Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Audio Manager.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T02:08:32.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sound.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Sound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sound.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Sound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T02:07:07.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\GameManager.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T00:34:41.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnemyX.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\EnemyX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\EnemyX.cs",
-              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\EnemyX.cs",
-              "RelativeToolTip": "Assets\\Challenge 4\\Scripts\\EnemyX.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Title": "MainMenuUI.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\MainMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuUI.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\MainMenuUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T01:32:35.537Z",
+              "WhenOpened": "2025-02-19T18:02:24.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerControllerX.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "RelativeToolTip": "Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T01:32:36.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T03:00:03.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RotateCameraX.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\RotateCameraX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\RotateCameraX.cs",
-              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Challenge 4\\Scripts\\RotateCameraX.cs",
-              "RelativeToolTip": "Assets\\Challenge 4\\Scripts\\RotateCameraX.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T01:32:37.202Z",
+              "WhenOpened": "2025-02-18T03:22:32.606Z",
               "EditorCaption": ""
             },
             {
@@ -104,49 +147,33 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
               "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:30:14.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
-              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:19:32.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T03:22:24.895Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:28:13.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "RotateCamera.cs",
               "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\RotateCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RotateCamera.cs",
               "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\RotateCamera.cs",
               "RelativeToolTip": "Assets\\Scripts\\RotateCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:22:47.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T03:22:18.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Proyectos\\Test 4\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T22:07:52.906Z"
             }
           ]
         }
