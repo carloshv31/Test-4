@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
     public bool hasPowerup = false;
     public GameObject powerupIndicator;
 
+    public ParticleSystem explosionParticle;
+    //public ParticleSystem dirtParticle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +54,7 @@ public class PlayerController : MonoBehaviour
             //Destroy(gameObject);
             GameManager.Instance.GameOver();
             AudioManager.Instance.PlaySFX("Death");
+            explosionParticle.Play();
 
             //AudioManager.Instance.musicSource.Stop();
         }
@@ -59,7 +63,7 @@ public class PlayerController : MonoBehaviour
     // Utilizamos una corrutina con un IEnumerator para que retorne el valor de hasPowerup a falso luego de pasados 7 segundos
     IEnumerator PowerupCountdownRoutine()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(10);
         hasPowerup = false;
         powerupIndicator.gameObject.SetActive(false);
     }

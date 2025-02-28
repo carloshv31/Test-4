@@ -9,19 +9,32 @@ public class SpawnManager : MonoBehaviour
     public GameObject powerupPrefab;
     private float spawnRange = 9f;
     public int enemyCount;
-    public int waveNumber = 1;
+    public int waveNumber;
 
-    public TextMeshProUGUI waveCount;
-    private int currentWave;
+    public TextMeshProUGUI waveCountText;
+    private int displayedWaveNumber;
+
+    public TextMeshProUGUI highScoreText;
+
+    private bool canCount;
+
+    //public int scoreFactor; // multiplicar la oleada de forma procedural
+    //public TextMeshPro scoreText; // agrega un TextMeshPro para mostrar el puntaje
 
     // Start is called before the first frame update
     void Start()
     {
-        currentWave = 1;
-        waveCount.text = "Wave: " + currentWave;
+        waveNumber = 1;
+        displayedWaveNumber = 1;
+        //scoreFactor = 0;
+        waveCountText.text = "Wave: " + displayedWaveNumber;
 
         SpawnEnemyWave(waveNumber);
         Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation);
+
+        UpdateHighScoreText();
+        //UpdateScoreText(); // Actualiza el puntaje en pantalla
+        canCount = true;
     }
 
     private void SpawnEnemyWave(int enemiesToSpawn)
@@ -34,20 +47,49 @@ public class SpawnManager : MonoBehaviour
 
     public void WaveCount()
     {
-        currentWave ++;
-        waveCount.text = "Wave: " + currentWave;
+            displayedWaveNumber++;
+            waveCountText.text = "Wave: " + displayedWaveNumber;
     }
+
+    public void HighScore()
+    {
+        if (waveNumber > PlayerPrefs.GetInt("HighScore", 1))
+        {
+            PlayerPrefs.SetInt("HighScore", waveNumber);
+        }
+    }
+
+    private void UpdateHighScoreText()
+    {
+        highScoreText.text = $"HighScore: {PlayerPrefs.GetInt("HighScore", 1)}";
+    }
+
+    //private void UpdateScoreText()
+    //{
+    //    scoreText.text = $"Score: {scoreFactor}";
+    //}
 
     // Update is called once per frame
     void Update()
     {
         enemyCount = FindObjectsOfType<Enemy>().Length;
-        if (enemyCount == 0 && GameManager.Instance.isGameOver == false)
+        if (enemyCount == 0 && GameManager.Instance.isGameOver == false && canCount)
         {
             waveNumber++;
+
+            //scoreFactor += 100;
+            //UpdateScoreText();
+            //UpdateHighScoreText();
+
             SpawnEnemyWave(waveNumber);
             Instantiate(powerupPrefab, GenerateSpawnPosition(), powerupPrefab.transform.rotation);
             WaveCount();
+            HighScore();
+        }
+
+        if (GameManager.Instance.isGameOver == true)
+        {
+            canCount = false;
         }
     }
 

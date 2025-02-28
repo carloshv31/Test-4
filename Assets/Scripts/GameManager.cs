@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public bool isGameOver;
     //public bool isPaused = false;
 
-
     private void Awake()
     {
         if (Instance == null)
@@ -60,13 +59,13 @@ public class GameManager : MonoBehaviour
 
     public void ReloadScene()
     {
-        isGameOver = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        isGameOver = false;
     }
 
     public void ChangeScene(string nameScene)
     {
-        isGameOver = false;
         SceneManager.LoadScene(nameScene);
+        isGameOver = false;
     }
 }
