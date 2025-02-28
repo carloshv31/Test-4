@@ -24,4 +24,9 @@ public class MainMenuUI : MonoBehaviour
     {
 
     }
+
+    public void MenuButtonPressed()
+    {
+        AudioManager.Instance.PlaySFX("Button");
+    }
 }

@@ -58,6 +58,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 2f255618646bcc046aafcf6dd875d2d7, type: 3}
   - name: Hit
     clip: {fileID: 8300000, guid: 7cd2f579f23d1ba43a068f02bdf668ae, type: 3}
+  - name: Button
+    clip: {fileID: 8300000, guid: d227f575937a99c4b913766ddddff41c, type: 3}
+  - name: Enemy Death
+    clip: {fileID: 8300000, guid: fba55be70857f544abc2c5f5dcf6fb08, type: 3}
   musicSource: {fileID: 7508194067740638269}
   sfxSource: {fileID: 2890753459553990776}
 --- !u!1 &3627985239079271815

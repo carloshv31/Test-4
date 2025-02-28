@@ -36,4 +36,9 @@ public class UIManager : MonoBehaviour
             gameOverText.gameObject.SetActive(true);
         }
     }
+
+    public void SceneButtonPressed()
+    {
+        AudioManager.Instance.PlaySFX("Button");
+    }
 }

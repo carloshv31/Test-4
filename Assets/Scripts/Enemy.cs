@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     private Rigidbody enemyRigidBody;
     private GameObject player;
 
-    // public ParticleSystem explosionRubbleParticle;
+    public ParticleSystem enemyExplosionParticle;
 
     // Start is called before the first frame update
     void Start()
@@ -26,12 +26,21 @@ public class Enemy : MonoBehaviour
 
 
 
-        if (transform.position.y < -10)
-        {
-            Destroy(gameObject);
-            // se destruyó el objeto
+        //if (transform.position.y < -10)
+        //{
+        //    Instantiate(enemyExplosionParticle.gameObject, transform.position, enemyExplosionParticle.transform.rotation);
+        //    AudioManager.Instance.PlaySFX("Enemy Death");
+        //    Destroy(gameObject);
+        //}
+    }
 
-            // explosionRubbleParticle.Play();
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Sensor"))
+        {
+            Instantiate(enemyExplosionParticle.gameObject, transform.position, enemyExplosionParticle.transform.rotation);
+            AudioManager.Instance.PlaySFX("Enemy Death");
+            Destroy(gameObject);
         }
     }
 }

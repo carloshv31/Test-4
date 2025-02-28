@@ -147,3 +147,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 9.9
+  enemyExplosionParticle: {fileID: 4758139293545943008, guid: a6968b3588a71f84a9c57b3ee1f0fd2b, type: 3}
